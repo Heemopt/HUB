@@ -1,3 +1,48 @@
+xwd = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId)
+Gamename = xwd.Name
+local games = {
+[game.PlaceId] = {
+    Title = "Blox Fruits",
+    Icons = "",
+    Welcome = function()
+            return tostring(
+            " "
+                ..
+
+                        Gamename.. "!" .. " SECOND HUB]"  .."\n เปิดสำเร็จแล้ว 🇹🇭 Second Hub Thai 🇹🇭"
+            )
+    end
+}
+}
+if games[game.PlaceId] then	
+if games[game.PlaceId].Title == "Blox Fruits" then
+    local function notify(types, ...)
+            if types == "Notify" then
+            require(game.ReplicatedStorage.Notification).new(...):Display()
+            end
+    end
+    notify("Notify", games[game.PlaceId].Welcome())
+end
+end
+
+wait(1.1)
+
+game.StarterGui:SetCore("SendNotification", {
+    Icon = "";
+    Title = "Second Hub", 
+    Text = "สคริปตึงๆ"
+    Botton = "ยืนยัน"
+})
+
+wait(2.4)
+
+game.StarterGui:SetCore("SendNotification", {
+    Icon = "";
+    Title = "Second Hub", 
+    Text = "ยินดีเข้าสู่ Hub นี้"
+    Botton = "ยืนยัน"
+})
+
 print('Yes Sam Kak MakMak ')
 local placeId = game.PlaceId
 if placeId == 2753915549 or placeId == 4442272183 or placeId == 7449423635 then
@@ -334,7 +379,7 @@ if BF then
 		Toggleui.Position = UDim2.new(0.803076923, 0, 0, 0)
 		Toggleui.Size = UDim2.new(0, 120, 0, 30)
 		Toggleui.Font = Enum.Font.SourceSansSemibold
-		Toggleui.Text = "[ Right Control ]"
+		Toggleui.Text = "[ PC ONLY SCRIPT ]"
 		Toggleui.TextColor3 = Color3.fromRGB(255, 0, 0)
 		Toggleui.TextSize = 20.000
 	
@@ -4955,7 +5000,7 @@ if BF then
 		end
 	end)
 	FastTween = false
-	AutoFarmTab:Toggle("Very Fast Tween ( Not Recommend For KaiTun )", false,function(a)
+	AutoFarmTab:Toggle("Very Fast Tween (Not one button KaiTun )", false,function(a)
 		FastTween = a
 	end)
 	
@@ -7982,7 +8027,7 @@ if BF then
 			end
 		end
 	end)
-	AutoFarmMiscTab:Label("🎃 Hallow Ween 🎃")
+	AutoFarmMiscTab:Label("🎃 ฮาโลวีน อีเว้น 🎃")
 	AutoFarmMiscTab:Toggle("Auto Farm Bone",_G.AutoFarmBone,function(vu)
 		if not ThreeWorld and vu then
 			Flux:Notification('Use In Sea 3 (Three World)')
