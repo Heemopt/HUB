@@ -12086,7 +12086,7 @@ if OPL then
     
     function Flux:Window(text, bottom,mainclr,toclose)
         CloseBind = toclose or Enum.KeyCode.RightControl
-        PresetColor = mainclr or Color3.fromRGB(255, 70, 70)
+        PresetColor = mainclr or Color3.fromRGB(185, 255, 70)
         local fs = false
         local MainFrame = Instance.new("Frame")
         local MainCorner = Instance.new("UICorner")
@@ -14231,7 +14231,7 @@ if OPL then
         end
         return Tabs
     end
-    local win = Flux:Window("Ren Hub", "One Piece legendary", Color3.fromRGB(255, 70, 70 ), Enum.KeyCode.RightControl)
+    local win = Flux:Window("SECOND HUB", "One Piece legendary", Color3.fromRGB(255, 70, 70 ), Enum.KeyCode.RightControl)
     local page1 = win:Tab("Wapon Modify", "http://www.roblox.com/asset/?id=6023426915")
     local page2 = win:Tab("Farming", "http://www.roblox.com/asset/?id=6023426915")
     local page3 = win:Tab("TelePort", "http://www.roblox.com/asset/?id=6023426915")
@@ -17289,7 +17289,7 @@ if BOKU then
         end
         return Tabs
     end
-    local win = Flux:Window("Ren Hub", "Boku No Roblox", Color3.fromRGB(255, 70, 70 ), Enum.KeyCode.RightControl)
+    local win = Flux:Window("SECOND HUB", "Boku No Roblox", Color3.fromRGB(255, 70, 70 ), Enum.KeyCode.RightControl)
     local Setting = win:Tab("Setting Tab","http://www.roblox.com/asset/?id=6022668888")
     local Main = win:Tab("Main Tab","http://www.roblox.com/asset/?id=6022668888")
     local Stats = win:Tab("Stats Tab","http://www.roblox.com/asset/?id=6022668888")
@@ -20200,7 +20200,7 @@ if RO then
         end
         return Tabs
     end
-    local win = Flux:Window("Ren Hub", "Ro Ghoul", Color3.fromRGB(255, 70, 70 ), Enum.KeyCode.RightControl)
+    local win = Flux:Window("SECOND HUB", "Ro Ghoul", Color3.fromRGB(255, 70, 70 ), Enum.KeyCode.RightControl)
     local page = win:Tab("Status Tab", "http://www.roblox.com/asset/?id=6023426915")
     local page1 = win:Tab("Main Tab", "http://www.roblox.com/asset/?id=6023426915")
     local page2 = win:Tab("Stats Tab", "http://www.roblox.com/asset/?id=6023426915")
@@ -24679,7 +24679,7 @@ for i,v in pairs(devilfruit) do
 end
 local real = game.Players.LocalPlayer.UserId
 
-local Main = Flux:Window("Ren Hub", "King Legacy", Color3.fromRGB(255, 70, 70 ), Enum.KeyCode.RightControl)
+local Main = Flux:Window("SECOND HUB", "King Legacy", Color3.fromRGB(255, 70, 70 ), Enum.KeyCode.RightControl)
 local AutoFarmTab = Main:Tab("Main", "http://www.roblox.com/asset/?id=6023426915")
 local Main2 = Main:Tab("Main 2", "http://www.roblox.com/asset/?id=6023426915")
 local StatTab = Main:Tab("Stat", "http://www.roblox.com/asset/?id=6023426915")
@@ -25679,7 +25679,7 @@ end)
 end
 if ANS then
     local Flux = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/fluxlib.txt")()
-local win = Flux:Window("Ren Hub", "Anime Fighting Simulator", Color3.fromRGB(255, 110, 48), Enum.KeyCode. RightControl)
+local win = Flux:Window("SECOND HUB", "Anime Fighting Simulator", Color3.fromRGB(255, 110, 48), Enum.KeyCode. RightControl)
 local tab = win:Tab("Tab 1", "http://www.roblox.com/asset/?id=6023426915")
 local stats = require(game:GetService("Players").LocalPlayer.PlayerGui.Main.MainClient.PlayerDataClient)
 local total = function() 
