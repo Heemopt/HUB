@@ -28,19 +28,17 @@ end
 wait(1.1)
 
 game.StarterGui:SetCore("SendNotification", {
-    Icon = "";
+    Icon = "https://www.roblox.com/library/9301957439/20220407-184620";
     Title = "Second Hub", 
     Text = "สคริปตึงๆ"
-    Botton = "ยืนยัน"
 })
 
 wait(2.4)
 
 game.StarterGui:SetCore("SendNotification", {
-    Icon = "";
+    Icon = "https://www.roblox.com/library/9301957439/20220407-184620";
     Title = "Second Hub", 
     Text = "ยินดีเข้าสู่ Hub นี้"
-    Botton = "ยืนยัน"
 })
 
 print('Yes Sam Kak MakMak ')
